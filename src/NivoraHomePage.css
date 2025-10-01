@@ -1,0 +1,313 @@
+.bodyddd{
+    margin: 1px 10px;
+    overflow-x: hidden;
+    /* background: white; */
+   
+}
+.Navboss{
+    margin: 10px 1px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    /* margin: 0px 1px; */
+}
+nav button{
+    background: none;
+    border: none;
+}
+.startednsvbtn{
+    background:linear-gradient(to right ,rgb(11, 67, 115) 0%,  rgb(10, 126, 101) 50% );
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.maindivv{
+    margin: 80px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+.maindivv h3{
+    font-size: 70px;
+    margin: 20px 1px;
+    width: 500px;
+}
+.maindivv p{
+    font-size: 20px;
+    margin: 20px 1px;
+    width: 600px;
+
+}
+.threee{
+    display: flex;
+    margin: 40px 1px;
+}
+.buttongroup button{
+    border: 2px solid rgba(128, 128, 128, 0.29);
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.btnfroupsss{
+    background:linear-gradient(to right ,rgb(11, 67, 115) 0%,  rgb(10, 126, 101) 50% );
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-right: 20px;
+}   
+.stats{
+    /* display: flex; */
+   
+}
+.imggg{
+    position: relative;
+    left: 60px;
+}
+.imggg img{
+    max-height:70%;
+    width:80%;
+    border-radius: 30px;
+}
+.servicee{
+    text-align: center;
+    margin: 100px 1px;
+}
+.minpservic{
+    width: 600px;
+    margin: auto;
+}
+.allservices{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:80px;
+    margin: 50px 1px;
+
+}
+.servicesdivv{
+    border: 1px solid rgba(128, 128, 128, 0.417);
+    border-radius: 20px;
+    padding: 20px;
+}
+.servicesdivv ul{
+    margin: 15px 1px;
+}
+.servicesdivv ul li{
+    padding:5px;
+    /* list-style: ; */
+} 
+.servicesdivv ul li::marker{
+    color: green;
+}  
+.servicesdivv button{
+    border: 1px solid gray;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+    color: blue;
+}
+
+.ServiceIcon{
+    margin:20px 20px;
+    background:linear-gradient(to right ,rgba(0, 136, 255, 0.302) 0%,  rgba(13, 179, 143, 0.264) 50% );
+    width:50px;
+     padding:10px 3px 5px;
+     border-radius:10px ;
+     text-align: center;
+     align-items: center;
+     color: blue;
+   
+}
+.servicesdivv h3{
+    margin: 10px 4px ;
+}
+.consultationn{
+    padding: 50px;
+    background:linear-gradient(to right ,rgba(0, 136, 255, 0.096) 0%,  rgba(13, 179, 143, 0.113) 50% );
+    border-radius: 20px;
+}
+.consultationn h3{
+    font-size: 25px;
+    margin: 20px 1px;
+}
+.consultationn p{
+  
+    width: 600px;
+    margin: auto;
+}
+.conultationbutton{
+    margin: 10px;
+}
+.conultationbutton button{
+    padding:10px ;
+    border-radius: 10px;
+    border: none;
+    background:linear-gradient(to right ,rgb(11, 67, 115) 0%,  rgb(10, 126, 101) 50% );
+    color: white;
+}
+.Missionn h3{
+    font-size:40px;
+    width: 600px;
+}
+.Missionn p{
+    width: 600px;
+    margin: 20px 1px;
+}
+.missiondivv{
+    padding: 20px;
+    border: gray 1px solid;
+    border-radius:20px;
+    background: rgba(255, 255, 255, 0.633);
+}
+.missiondivv p{
+    font-style: italic;
+    opacity: 0.5;
+}
+
+.achievements{
+    display: flex;
+    justify-content: space-around;
+    margin: 100px 1px;
+    text-align: center;
+}
+.achievements p{
+    font-size: 14px;
+}
+.achievment1234{
+    border: 1px solid gray;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 0px 30px;
+    background: rgba(255, 255, 255, 0.839);
+}
+.Achievmenicon{
+    background:linear-gradient(to right ,rgba(0, 136, 255, 0.096) 0%,  rgba(13, 179, 143, 0.113) 50% );
+    width:50px;
+        padding:10px 3px 5px;
+        border-radius: 50%;
+       position: relative;
+       left: 90px;
+       margin-bottom: 20px;
+       color: blue;
+
+     /* margin: 20px 20px; */
+}
+.corevalues{
+    display: flex;
+    margin: 20px;
+}
+.corevalues p{
+    font-weight: 300;
+}
+.ValuesSub{
+    background: rgba(0, 0, 255, 0.167);
+    display: inline-block;
+   padding:15px 30px 15px;
+
+}
+.ValuesSub2{
+    background: rgba(0, 255, 34, 0.167);
+    display: inline-block;
+   padding:15px 30px 15px;
+
+}
+.ValuesSub3{
+    background: rgba(170, 0, 255, 0.058);
+    display: inline-block;
+   padding:15px 30px 15px;
+
+}
+
+.testimonials{
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+.testimonial123{
+    border: 1px solid rgba(128, 128, 128, 0.282);
+    border-radius: 20px;
+    padding: 20px;
+    margin: 20px;
+    background: rgba(255, 255, 255, 0.388);
+}
+.NAmesofUSersss{
+    color: white;
+    background: linear-gradient(to right ,rgb(0, 107, 131) 0%,  rgba(2, 100, 51, 0.729) 50% );
+    padding: 15px  15px;
+    border-radius: 50%;
+}
+footer{
+    margin-top: 15%;
+     background: rgb(2, 40, 73);
+     border-radius: 30px;
+     padding: 50px;
+}
+.footerdivv{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+   
+    color: white;
+}
+
+footer button{
+    transition: linear .3s;
+    background: none;
+    border: none;
+    color: white;
+}
+footer button:hover{
+    color: blue;
+    cursor: pointer;
+}
+@media (min-width:200px) and (max-width:800px){
+    nav{
+        display: none;
+    }
+    .consultationn{
+        display: none;
+    }
+    .maindivv{
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+    .maindivv h3{
+        font-size: 40px;
+        width: 100%;
+        margin: auto;
+    }
+    .maindivv p{
+        width: 100%;
+        margin: auto;
+    }
+    .imggg{
+        position: relative;
+        left: 0px;
+    }
+    .imggg img{
+        width: 100%;
+        height: auto;
+    }
+    .threee{
+        justify-content: center;
+        gap: 20px;
+    }
+    .allservices{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+    .achievements{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .testimonials{
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+
+
+    .footerdivv{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 20px;
+    }
+}

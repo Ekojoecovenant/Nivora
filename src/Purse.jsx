@@ -1,5 +1,9 @@
 import React from "react"
-import {Wallet,Plus,Home, ArrowUpRight,ArrowDownLeft,DollarSign,Search,Bell, Settings,Target, CheckCircle,TrendingUp, LogOut } from "lucide-react";
+import {Wallet,Plus,Home, ArrowUpRight,ArrowDownLeft,DollarSign,Search,Bell, Settings,Target, CheckCircle,TrendingUp, LogOut, } from "lucide-react";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faBuildingColumns, faBitcoinSign,  } from '@fortawesome/free-solid-svg-icons';
+import { library,  } from '@fortawesome/fontawesome-svg-core';
+import { FaPaypal, FaBitcoin,FaCreditCard } from 'react-icons/fa';
 import "./Purse.css"
 import History from './History'
 import { useNavigate } from 'react-router-dom';
@@ -23,7 +27,7 @@ const Purse = () => {
                     {/* icon */}
                 </div>
                 <div>
-                    <h3>Welcome back User</h3>
+                    <h3>Welcome back Elon 👋</h3>
                     <p>Save smatter, reach your goals faster</p>
                 </div>
                </div>
@@ -46,7 +50,7 @@ const Purse = () => {
                     </div> */}
                     
                 {/* </div> */}
-                <div style={{display:"flex  ", alignItems:"center", gap:"1px", position:"relative", top:"-5px",}} className="LogoutBtn" onClick={() => navigate('/Login')}>
+                <div style={{display:"flex  ", alignItems:"center", gap:"1px", position:"relative", top:"-5px",}} className="LogoutBtn" onClick={() => navigate('/NivoraHomePage')}>
                     <button style={{border:"none", background:"none", color:'white'}}>Logout </button>
                     <div style={{position:"relative", top:'4px', left:"10px"}}><LogOut size={18}/></div>
                 </div>
@@ -66,7 +70,7 @@ const Purse = () => {
                
                     </div>
                     <div>
-                        <h3 style={{fontSize:"30px", fontWeight:"300"}}>$28,450.25</h3>
+                        <h3 style={{fontSize:"30px", fontWeight:"300"}}>$1500.00</h3>
                 
                 {/* <p>last Updated ..</p> */}
                 </div>
@@ -86,32 +90,45 @@ const Purse = () => {
 
             </div>
             <div className="BodyQuickAction" style={{margin:"50px"}}>
-                <h3>Quick Actions</h3>
+                <h3>Payout</h3>
                 <div className="QuickAction">
                     <div>
-                        <button style={{background:"blue", color:"white"}}><ArrowUpRight size={24}/></button>
-                        <h4>Transfer</h4>
+                        <button style={{background:"blue", color:"white"}}>
+                            {/* <FaBank size={32} /> */}
+                            <FontAwesomeIcon icon={faBuildingColumns} size={32} style={{fontSize:'30px'}}/>
+                        </button>
+                        {/* <h4>Transfer</h4> */}
                     </div>
                     <div>
-                        <button style={{background:"green"}}><ArrowDownLeft size={24}/></button>
-                        <h4>Add Money</h4>
+                        <button style={{background:"green"}}>
+                            <FaBitcoin size={32} />
+                            {/* <FontAwesomeIcon icon={faBitcoinSign} size={50} /> */}
+                            {/* <faBitcoinSign size={24}/> */}
+                        </button>
+                        {/* <h4>Add Money</h4> */}
                     </div>
                     <div >
-                        <button style={{background:"purple"}}><Plus size={24}/></button>
-                        <h4> New Purse</h4>
+                        <button style={{background:"purple"}}>
+                            <FaPaypal size={32} />
+                        </button>
+                        {/* <h4> New Purse</h4> */}
                     </div>
-                    <div>
-                        <button style={{background:'orange'}}><DollarSign size={24}/></button>
-                        <h4>Pay Bill</h4>
+
+                    <div >
+                        <button style={{background:"brown"}}>
+                            <FaCreditCard size={32} />
+                        </button>
+                        {/* <h4> New Purse</h4> */}
                     </div>
+                    
                 </div>
             </div>
 
             <div className="Cheivement">
             <div className="CheivementHead">
                 <div>
-                    <h3>Total Saved</h3>
-                    <p>$5,000</p>
+                    <h3>Total Invested</h3>
+                    <p>$500.00</p>
                 </div>
                 <div style={{backgroundColor:"#8fb5da40", padding:"10px", borderRadius:"10px"}}>
                     <Wallet size={30} style={{color:"blue"}}/>
@@ -120,8 +137,8 @@ const Purse = () => {
 
             <div className="CheivementHead">
                 <div>
-                <h3>Total Goals</h3>
-                <p>$73,000</p>
+                <h3>Target </h3>
+                <p>$3000.00</p>
 
                 </div>
                 <div>
@@ -132,7 +149,7 @@ const Purse = () => {
             <div className="CheivementHead">
                 <div>
                     <h3>Goals Completed</h3>
-                    <p>1/4</p>
+                    <p>0/4</p>
                 </div>
                 <div>
                     <CheckCircle size={30} style={{color:"green",background:"#8fdab62a",padding:"10px", borderRadius:"10px"}}/>
@@ -141,7 +158,7 @@ const Purse = () => {
             <div className="CheivementHead">
                 <div>
                     <h3>Average Progress</h3>
-                    <p>64.2</p>
+                    <p>0.00</p>
                 </div>
                 <div>
                     <TrendingUp size={30} style={{color:"orange",background:"#ecc2882a",padding:"10px", borderRadius:"10px"}}/>

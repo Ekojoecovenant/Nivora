@@ -1,10 +1,11 @@
+/* @import url('~@fortawesome/fontawesome-free/css/all.min.css'); */
 *{
     margin:5px;
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
 body{
-    background-color: rgba(190, 206, 238, 0.245);
+    background-color: rgba(190, 206, 238, 0.187);
 
 }
 .USerFeed{
@@ -127,6 +128,10 @@ body{
     display: grid;
     grid-template-columns: repeat(3,1fr);
 } */
+ .QuickAction{
+    position: relative;
+    left: -8px !important;
+ }
  .QuickAction h4{
     font-size: 12px;
 }
@@ -136,7 +141,7 @@ body{
     text-wrap: nowrap;
     padding: 20px 10px;
     position: relative;
-    left: -10px;   
+    left: -15px;   
 }
 .Cheivement{
     flex-direction: column;
