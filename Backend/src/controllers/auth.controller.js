@@ -86,5 +86,5 @@ exports.getUsers = async (req, res) => {
   if (users.length < 1)
     return res.status(400).json({ success: false, message: "No User Added" });
 
-  res.json({ sucess: true, users: users });
+  res.json({ success: true, users: users });
 };
